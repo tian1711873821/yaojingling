@@ -1,0 +1,98 @@
+.bottom{
+	background-color: #232429;
+}
+.bottom-message{
+	width: 1200px;
+	height:67px ;
+	margin: auto;
+}
+.bottom-message-box{
+	position: relative;
+}
+.bottom-message ul{
+	list-style: none;
+}
+.bottom-message ul li{
+	float: left;
+	padding-top: 10px;
+	height: 57px;
+	width: 240px;
+}
+.bottom-font{
+	color: #CDCDCD;
+	display: block;
+}
+.bottom-zixun{
+	
+	width: 1200px;
+	height: 253px;
+	margin: auto;
+}
+.bottom-zixun ul{
+	margin-left: 20px;
+	float: left;
+	list-style: none;
+}
+.bottom-zixun span{
+	width: 192px;
+	font-size: 18px;
+	color: white;
+	display: inline-block;
+	margin-bottom: 18px;
+}
+.bottom-zixun ul li{
+	width: 192px;
+	height: 28px;
+	line-height: 28px;
+	color: #73797C;
+}
+.bottom-zixun ul li a{
+	color: #73797C;
+	text-decoration: none;
+}
+.bottom-zixun ul li a:hover{
+	text-decoration:underline;
+	transition: 0.5s;
+	color: white;
+}
+.bottom-lianxi{
+	margin-right: 50px;
+	float: right;
+	width: 250px;
+	text-align: center;
+}
+.bottom-lianxi span{
+	display: block;
+	margin-left: 30px;
+	margin-top: 20px;
+	font-size: 17px;
+}
+.bottom-tiyan{
+	margin-top: 10px;
+	text-decoration: none;
+	display: inline-block;
+    font-size: 14px;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #fff;
+}
+.bottom-banquan{
+	width: 100%;
+	height: 42px;
+	background-color: #000000;
+	text-align: center;
+	line-height: 42px;
+}
+.bottom-banquan a{
+	text-decoration: none;
+	color: #73797D;
+}
+.bottom-banquan a:hover{
+	text-decoration:underline;
+	transition: 0.5s;
+	color: white;
+}

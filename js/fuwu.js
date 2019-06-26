@@ -1,0 +1,34 @@
+$(function(){
+		$(".ul1").animate({top:"0"},700);
+		$(".logo").animate({top:"0"},700);
+		$(".tiyan").mouseenter(function(){
+			$(this).stop().animate({backgroundColor:"#BF3826"},300);
+		});
+		$(".tiyan").mouseleave(function(){
+			$(this).stop().animate({backgroundColor:"#f39800"},300);
+		});
+		$(".bottom-tiyan").mouseenter(function(){
+				$(this).css("color","#000");
+				$(this).stop().animate({backgroundColor:"#fff"},200);
+		});
+		$(".bottom-tiyan").mouseleave(function(){
+				$(this).css("color","");
+				$(this).stop().animate({backgroundColor:"rgba(0,0,0,0)"},200);
+		});
+		$(".fuwu-list a").mouseover(function(){
+			$(this).css("color","#FFFFFF");
+			$(this).stop().animate({backgroundColor:"#F39800"},300)
+		});
+		$(".fuwu-list a").mouseleave(function(){
+			$(this).css("color","#000000");
+			$(this).stop().animate({backgroundColor:""},300)
+		});
+		$(".tiyan2").mouseenter(function(){
+			$(this).css("color","white");
+			$(this).stop().animate({backgroundColor:"#f39800"},300);
+		});
+		$(".tiyan2").mouseleave(function(){
+			$(this).css("color","");
+			$(this).stop().animate({backgroundColor:""},300);
+		});
+	});

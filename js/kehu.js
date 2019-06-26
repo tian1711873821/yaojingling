@@ -1,0 +1,33 @@
+$(function(){
+		$(".ul1").animate({top:"0"},700);
+		$(".logo").animate({top:"0"},700);
+		$(".tiyan").mouseenter(function(){
+			$(this).stop().animate({backgroundColor:"#BF3826"},300);
+		});
+		$(".tiyan").mouseleave(function(){
+			$(this).stop().animate({backgroundColor:"#f39800"},300);
+		});
+		$(".yiyao-list").mouseenter(function(){
+			$(".yiyao-list img").eq($(this).index()).css("transform","scale(1.2)");
+		});
+		$(".yiyao-list").mouseleave(function(){
+			$(".yiyao-list img").eq($(this).index()).css("transform","scale(1)");
+		});
+		$(".bottom-tiyan").mouseenter(function(){
+				$(this).css("color","#000");
+				$(this).stop().animate({backgroundColor:"#fff"},200);
+		});
+		$(".bottom-tiyan").mouseleave(function(){
+				$(this).css("color","");
+				$(this).stop().animate({backgroundColor:"rgba(0,0,0,0)"},200);
+		});
+		$(".yeshu2").click(function(){
+				location.href='kehu2.html';
+			});
+			$(".yeshu1").click(function(){
+				location.href='kehu.html';
+			});
+			$(".xiayiye").click(function(){
+				location.href='kehu2.html';
+			});
+	});

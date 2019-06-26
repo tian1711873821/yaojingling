@@ -1,0 +1,379 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.gyyjl{
+	width: 100%;
+	height: 550px;
+	background: url(../img/guanyubeijing1.jpg);
+	background-position: -150px;
+}
+.gyyjl-fonts{
+	width: 1200px;
+	height: 550px;
+	
+	text-align: center;
+	margin: auto;
+}
+.gyyjl-h3{
+	padding-top: 160px;
+	color: white;
+	font-size: 48px;
+	font-weight: 400;
+}
+.gyyjl-p{
+	color: white;
+	font-size: 16px;
+	margin-top: 50px;
+}
+.tiyan{
+	display: inline-block;
+	width: 160px;
+	height: 45px;
+	background: #f39800;
+	border-radius: 20px;
+    color: #fff;
+    font-size: 16px;
+    line-height: 45px;
+    text-align: center;
+  	margin-top: 50px;
+  	cursor: pointer;
+}
+.gongsijianjie{
+	background: url(../img/guanyubeijing2.jpg);
+}
+.gongsijianjie-font{
+	width: 1200px;
+	margin: auto;
+	text-align: center;
+	padding-top: 40px;
+}
+.jianjie{
+	width: 700px;
+	height: 260px;
+	background-color: white;
+	position: absolute;
+	top: 40px;
+	right: 0;
+	overflow-y: auto;
+	padding: 40px;
+	line-height: 30px;
+}
+/*拖拽*/
+body * {
+  -webkit-user-select: none;
+}
+
+.wrap {
+  z-index: 0;
+  width: 100%;
+  height: 700px;
+  position: relative;
+}
+
+.window {
+  overflow: hidden;
+  position: relative;
+  background: url(../img/tuozhuaibeijing.jpg);
+}
+
+#carousel {
+  width: 10000px;
+  position: relative;
+  top: 0;
+  left: -1550px;
+ 
+}
+
+.slide {
+  height: 700px;
+   width: 1550px;
+  cursor: pointer;
+  float: left;
+  display: flex;
+}
+
+.slide#b1 {
+  
+}
+
+.slide#b2 {
+  
+}
+
+.slide#b3 {
+  
+}
+.transition {
+  transition: .5s;
+}
+#prev {
+   cursor: pointer;
+  position: absolute;
+  top:45%;
+  left: 50px;
+  width: 30px;
+  height: 18px;
+  background: url(../img/goleft.png) no-repeat;
+}
+#next {
+	cursor: pointer;
+	position: absolute;
+	z-index: 999;
+	top: 45%;
+  	right: 50px;
+  	width: 30px;
+  	height: 18px;
+  background: url(../img/goright.png) no-repeat;
+}
+.zizhi-h3{
+	position: absolute;
+	top: 0px;
+	left: 50%;
+	z-index: 999;
+	font-size: 40px;
+	margin-left: -80px;
+	font-weight: 500;
+	margin-top: 50px;
+}
+.zizhi-xiantiao{
+	position: absolute;
+	top: 350px;
+	display: block;
+	width: 100%;
+	height: 4px;
+	background-color: #F39800;
+}
+.zili2 ul{
+	margin-left: 25px;
+	margin-top: 25px;
+	list-style: none;
+}
+.zili2 ul li{
+	float: left;
+	width: 190px;
+	height: 455px;
+}
+.zilitop1{
+	width: 190px;
+	height: 135px;
+	margin: auto;
+	text-align: center;
+	position: relative;
+}
+.zilitop1-p{
+	color: #666666;
+	position: absolute;
+	top: 10px;
+}
+.zilitop1-span{
+	display: inline-block;
+	border: 2px solid #FC0C42;
+	border-radius: 50%;
+	height: 15px;
+	width: 15px;
+	margin: auto;
+	margin-top: 116px;
+}
+.shuxian{
+	display: block;
+	height: 90px;
+	width: 2px;
+	background-color: #FC0C42;
+	margin: auto;
+}
+.riqi{
+	color: #F39800;
+	width: 120px;
+	height: 32px;
+	margin: auto;
+	text-align: center;
+	font-size: 28px;
+	padding-top: 50px;
+}
+.riqi2{
+	color: #F39800;
+	width: 120px;
+	height: 30px;
+	margin: auto;
+	text-align: center;
+	font-size: 28px;
+	margin-top: 120px;
+	
+}
+.zilibottom{
+	width: 190px;
+	height: 135px;
+	margin: auto;
+	text-align: center;
+	position: absolute;
+	top: 335px;
+}
+.zilibottom-span1{
+	display: block;
+	height: 90px;
+	width: 2px;
+	background-color: #FC0C42;
+	margin: auto;
+	margin-top: 15px;
+}
+.zilibottom-span2{
+	display: block;
+	border: 2px solid #FC0C42;
+	border-radius: 50%;
+	height: 15px;
+	width: 15px;
+	margin: auto;
+}
+.zilibottom-p{
+	color: #666666;
+	margin-top: 30px;
+	width: 190px;
+	position: absolute;
+	top: 100px;
+}
+.wenhua{
+	position: relative;
+	width: 100%;
+	height: 517px;
+	background: url(../img/wenhuabeijing.jpg);
+	background-position: -200px;
+}
+.wenhua img{
+	cursor: pointer;
+}
+.wenhua-h3{
+	font-weight: 500;
+	text-align: center;
+    font-size: 40px;
+    color: #000;
+    margin-bottom: 50px;
+    margin-top: 45px;
+}
+.wenhua-content{
+	position: relative;
+	width: 1200px;
+	height: 224px;
+	margin: auto;
+	
+	overflow: hidden;
+}
+.wenhua-box{
+	position: absolute;
+	width: 2400px;
+	height: 224px;
+	left:-600px;
+}
+.wenhua-content1{
+	margin-top: 15px;
+	margin-right: 50px;
+	width: 250px;
+	height: 190px;
+	text-align:  center;
+	float: left;
+	
+}
+.wenhua-content-h3{
+	font-weight: bold;
+	margin-top: 23px;
+}
+.wenhua-content-p{
+	color: #97989A;
+}
+.goleft,.goright{
+	cursor: pointer;
+	width: 27px;
+	height: 60px;
+	position: absolute;
+}
+.goleft{
+	top: 45%;
+	left: 0px;
+	background: url(../img/wenhuagoleft.png) no-repeat;
+}
+.goright{
+	right: 0px;
+	top: 45%;
+	background: url(../img/wenhuagoright.png) no-repeat;
+}
+.lianxiwomen-h3{
+	font-size: 40px;
+	text-align: center;
+	font-weight: 500;
+	margin-top: 50px;
+}
+.lianxiwomen-p{
+	text-align: center;
+	width: 837px;
+	height: 50px;
+	margin:auto;
+	margin-top: 50px;
+}
+.zhaopin{
+	height: 400px;
+	background-color: #F8F8F8;
+}
+.zhaopin-p{
+	width: 1200px;
+	text-align: center;
+	margin: auto;
+	margin-top: 50px;
+}
+.shehuizhaopin{
+	margin-top: 50px;
+	border: 1px solid red;
+	text-decoration: none;
+	border-radius: 40px;
+    font-size: 20px;
+    color: #f39800;
+    line-height: 80px;
+    position: relative;
+    border: 1px solid #d63347;
+    width: 230px;
+    height: 81px;
+    display: inline-block;
+}
+.shehuizhaopin-image{
+	display: inline-block;
+	width:56px;
+	height:56px;
+	background: url(../img/shehuizhaopin.png) no-repeat;
+	margin-top: 10px;
+	position: absolute;
+	left: 20px;
+}
+.shehuizhaopin-a{
+	display: inline-block;
+	position: absolute;
+	left: 100px;
+}
+.xiaoyuanzhaopin{
+	text-decoration: none;
+	border-radius: 40px;
+    font-size: 20px;
+    color: #f39800;
+    line-height: 80px;
+    position: relative;
+    border: 1px solid #d63347;
+    width: 230px;
+    height: 81px;
+    display: inline-block;
+    margin-left: 20px;
+}
+.xiaoyuanzhaopin-image{
+	display: inline-block;
+	width:56px;
+	height:56px;
+	background: url(../img/xiaoyuanzhaopin.png) no-repeat;
+	margin-top: 10px;
+	position: absolute;
+	left: 20px;
+}
+.xiaoyuanzhaopin-a{
+	display: inline-block;
+	position: absolute;
+	left: 80px;
+}
+.zhaopin-box{
+	text-align: center;
+}
